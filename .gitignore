@@ -1,0 +1,48 @@
+# ASP.NET Core .gitignore
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Logs
+*.log
+
+# Database
+*.db
+*.mdf
+*.ldf
+
+# Publish output
+publish/
+
+# Others
+*.swp
+*.bak
+*.tmp
+
+# Entity Framework Migrations
+Migrations/*Designer.cs
+Migrations/*Snapshot.cs
+
+# Secret files
+secrets.json
